@@ -1,0 +1,7 @@
+{
+  "name": "airplane-seat",
+  "main": "main.js",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
