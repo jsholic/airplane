@@ -11,8 +11,8 @@ var maxPassengers  = rl.question('Enter the max passengers in number? ')
 var answer = rl.question('Enter the seats as arrays in 2D? ')
 
 	  var array=JSON.parse(answer);
-	  var rowSize=Math.max.apply(Math, array.map(e=>e[0]));
-	  var colSize=Math.max.apply(Math, array.map(e=>e[1]));
+	  var colSize=Math.max.apply(Math, array.map(e=>e[0]));
+	  var rowSize=Math.max.apply(Math, array.map(e=>e[1]));
 	  
 	  //Identify seats
 	  var seats=fillWithMAandW(array);
